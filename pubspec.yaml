@@ -20,4 +20,4 @@ flutter:
   fonts:
     - family: IcoMoon
       fonts:
-        - asset: fonts/iconmoonfree.ttf
+        - asset: fonts/icomoonfree.ttf

@@ -29,7 +29,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Color(0xFFF9F9F9),
         appBar: AppBar(
-          title: Text('BrandIcons Example'),
+          title: Text('IcoMoonIcons Example'),
+          centerTitle: true,
         ),
         body: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
