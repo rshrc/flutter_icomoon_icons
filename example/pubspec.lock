@@ -29,11 +29,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
+  cupertino_icons:
+    dependency: "direct main"
+    description:
+      name: cupertino_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.2"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_icomoon_icons:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -75,7 +89,7 @@ packages:
     source: hosted
     version: "2.0.3"
   recase:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: recase
       url: "https://pub.dartlang.org"
