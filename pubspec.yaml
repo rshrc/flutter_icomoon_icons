@@ -1,8 +1,8 @@
 name: flutter_icomoon_icons
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: 490 Free IcoMoon Icons for Flutter for directly using in both Android/iOS
+version: 1.0.0
+author: Rishi Banerjee <rishieric91@gmail.com>
+homepage: https://github.com/rshrc/flutter_icomoon_icons
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
