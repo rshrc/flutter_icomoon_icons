@@ -1,5 +1,7 @@
 import "package:flutter/material.dart";
 
+import 'package:flutter_icomoon_icons/flutter_icomoon_icons.dart';
+
 import './icons_list.dart';
 
 void main() => runApp(MyApp());
@@ -30,6 +32,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Color(0xFFF9F9F9),
         appBar: AppBar(
+          leading: IconButton(onPressed: (){}, icon: Icon(IcoMoonIcons.eye)),
           title: Text('IcoMoonIcons Example', style: TextStyle(color: Colors.blueGrey)),
           centerTitle: true,
           elevation: 0.0,
